@@ -1,0 +1,119 @@
+#about {
+  margin-top: 3em;
+  padding: 3em;
+  display: flex;
+  gap: 1em;
+  color: hsla(0, 0%, 40%, 0.699);
+  transition: 0.3s ease;
+}
+#about-2 {
+  color: hsla(0, 0%, 40%, 0.699);
+  transition: 0.3s ease;
+}
+#about-2:hover {
+  color: white;
+}
+.intro-1 {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+  text-align: center;
+}
+.intro-1 h1 {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 1em;
+  font-size: 5em;
+}
+.intro-1 img {
+  height: auto;
+  width: 10em;
+  border-radius: 5px;
+  margin-top: 1em;
+  filter: brightness(20%);
+  transition: 1s ease;
+}
+
+.intro-2 {
+  height: 80vh;
+  width: 100%;
+}
+.end {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.intro-2 img {
+  height: 80vh;
+  width: auto;
+  transition: 1s ease;
+  opacity: 0;
+}
+
+/* about2 */
+#about-2 {
+  display: flex;
+  gap: 2em;
+}
+
+.sidebar-left {
+  width: 30%;
+  height: 100vh;
+  padding: 2em;
+}
+
+/* right */
+.sidebar-right {
+  width: 100%;
+  height: 100vh;
+  padding: 2em 5em;
+}
+
+.sidebar-right p {
+  text-indent: 10em;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-side {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  margin-top: 30px;
+}
+.left-side {
+  height: 80%;
+  width: 100%;
+}
+.left-side p {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* right */
+.right-side {
+  height: 80%;
+  width: 100%;
+}
+.right-side img {
+  width: auto;
+  height: 20em;
+}
+
+/* main-hovers */
+#about:hover .intro-2 img {
+  color: white;
+  border-radius: 30px;
+  transform: translateX(30px);
+}
+
+#about:hover .intro-1 img {
+  filter: brightness(100%);
+}
+
+#about:hover .intro-2 img {
+  opacity: 1;
+}
+
+#about:hover {
+  color: white;
+}
